@@ -1,13 +1,16 @@
-import React from "react";
-import "./App.css"; // Importa los estilos generales
-import Login from "./Login"; // Importa el componente Login
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Login from "./Login";
+import RecupContrasena from "./RecupContrasena";
 
-const App: React.FC = () => {
+function App() {
   return (
-    <>
-      <Login />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/recuperar" element={<RecupContrasena />} />
+      </Routes>
+    </BrowserRouter>
   );
-};
+}
 
 export default App;
