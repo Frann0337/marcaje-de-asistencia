@@ -1,13 +1,20 @@
-import React from "react";
-import "./App.css"; // Importa los estilos generales
-import Login from "./Login"; // Importa el componente Login
+import Recover from "./pages/Recover";
+import "./App.css";
 
-const App: React.FC = () => {
+export default function App() {
   return (
-    <>
-      <Login />
-    </>
-  );
-};
+    <div className="page">
 
-export default App;
+      {/* Logo fuera del recuadro */}
+      <div className="logo">
+        <img src="/logo-krono.png" alt="KRONO" />
+      </div>
+
+      {/* Recuadro */}
+      <div className="card">
+        <Recover />
+      </div>
+
+    </div>
+  );
+}
