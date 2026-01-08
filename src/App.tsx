@@ -1,13 +1,12 @@
 import React from "react";
 import "./App.css"; // Importa los estilos generales
-import Login from "./Login"; // Importa el componente Login
-
+import RecuperarPassword from "./Recuperar-password"; 
 const App: React.FC = () => {
   return (
     <>
-      <Login />
+      <RecuperarPassword />
     </>
   );
 };
-
+ 
 export default App;
