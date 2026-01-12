@@ -1,0 +1,133 @@
+/* CONTENEDOR PRINCIPAL */
+.perfil-contenedor {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #c9f7e6, #bcd9f7);
+  font-family: Arial, sans-serif;
+}
+
+/* BODY */
+.perfil-body {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* SIDEBAR */
+.perfil-sidebar {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.perfil-sidebar button {
+  background: none;
+  border: none;
+  text-align: left;
+  font-size: 16px;
+  cursor: pointer;
+  color: #6c4df6;
+  padding: 5px 0;
+}
+
+/* CARD PERFIL */
+.perfil-card {
+  flex: 1;
+  background: #eaf7f9;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+/* AVATAR */
+.perfil-avatar {
+  width: 150px;
+  border-radius: 10px;
+}
+
+/* INFO PERFIL */
+.perfil-info {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.info-item span {
+  color: #3a7bd5;
+  width: 120px;
+  font-weight: bold;
+}
+
+.info-item strong {
+  color: #333;
+}
+
+/* ICONO EDITAR */
+.editar-icono {
+  width: 28px;
+  height: 28px;
+  border: 1px solid #000;
+  background: #fff;
+  color: #000;
+  border-radius: 50%;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 14px;
+  padding: 0;
+}
+
+/* INPUTS */
+.info-item input {
+  padding: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* BOTÓN FOTO */
+.boton-editar-foto {
+  display: block;
+  margin-top: 10px;
+  cursor: pointer;
+  color: #6c4df6;
+  font-size: 14px;
+}
+
+/* CONTENEDOR FOTO */
+.foto-contenedor {
+  position: relative;
+  width: fit-content;
+}
+
+/* LÁPIZ SOBRE FOTO */
+.editar-foto-icono {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+
+  width: 30px;
+  height: 30px;
+
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  color: #000;
+  font-size: 14px;
+}
