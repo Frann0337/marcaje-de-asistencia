@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header-usuario {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-avatar {
+  width: 45px;
+  height: 45px;
+  background: #6c4df6;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.header-label {
+  color: #0077ff;
+  font-size: 14px;
+}
+
+.header-nombre {
+  margin: 0;
+  color: #1d2dbf;
+}
+
+.header-logo {
+  height: 40px;
+}
